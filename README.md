@@ -1,88 +1,93 @@
-# 🛍️ RetailSight: Retail Sales Analytics
+🛍️ RetailSight: ML-Powered Retail Analytics Dashboard
+📌 Overview
 
-## 📌 Problem Statement
+RetailSight is an interactive data analytics and machine learning dashboard built using Streamlit to analyze retail sales data and generate actionable business insights. The application enables real-time exploration of sales performance and predicts future sales trends.
 
-Retail businesses generate large amounts of sales data but often struggle to extract meaningful insights. This project analyzes retail data to uncover trends and improve decision-making.
+🚀 Live Demo
 
----
+🔗 http://localhost:8502
 
-## 🎯 Objective
+🎯 Objectives
 
-* Analyze sales performance
-* Identify top categories and regions
-* Understand customer behavior
-* Generate business insights
+Analyze retail sales performance
+Identify top-performing categories and regions
+Understand customer purchasing behavior
+Forecast future sales using Machine Learning
 
----
 
-## 📂 Dataset
+📊 Features
 
-* Source: Kaggle (Superstore dataset)
-* Contains sales, category, region, and customer data
+📈 Interactive Dashboard using Streamlit
+🔍 Dynamic Filtering (Region, Category)
+💰 KPI Metrics (Sales, Orders, Average Order Value)
+📊 Sales Trend Visualization
+🏆 Top Products Analysis
+👥 Customer Segment Analysis
+🤖 Automated Business Insights
+🔮 Sales Prediction using Machine Learning
+📥 Download Filtered Data (CSV)
 
----
 
-## ⚙️ Approach
+📂 Dataset
 
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Feature Engineering
-* Visualization
+Source: Kaggle (Superstore dataset)
+Includes:
+Order Date
+Region
+Category
+Sales
+Profit
+Customer Segment
 
----
 
-## 📊 Visualizations
+⚙️ Tech Stack
 
-### Sales by Category
+Python
+Pandas
+Matplotlib
+Streamlit
+Scikit-learn
+NumPy
 
-![Category Sales](visuals/category_sales.png)
 
-### Monthly Sales Trend
+🤖 Machine Learning
 
-![Monthly Sales](visuals/monthly_sales.png)
+Implemented Linear Regression model to predict future sales
+Performed feature engineering using time-based variables
+Integrated predictions into the interactive dashboard
 
----
 
-## 💡 Key Insights
+📊 Key Insights
 
-* Technology category generates highest sales
-* Certain regions dominate revenue
-* Sales show seasonal trends
-* Top products contribute major share
+Technology category generates the highest sales
+Certain regions consistently outperform others
+Seasonal trends observed in monthly sales
+Top products contribute significantly to revenue
 
----
 
-## 🛠️ Tech Stack
+📁 Project Structure
 
-* Python
-* Pandas
-* Matplotlib
-
----
-
-## 📁 Project Structure
-
-```
 retailsight/
-│── analysis.py
-│── train.csv
+│── app/
+│    └── app.py              # Streamlit Dashboard
+│── src/
+│    └── analysis.py         # Data Analysis Scripts
+│── data/
+│    └── train.csv
+|── notebook/
+|    └── retailsight_analysis.ipynb 
 │── visuals/
 │    ├── category_sales.png
 │    ├── monthly_sales.png
+│── requirements.txt
 │── README.md
-```
 
----
+🚀 Future Enhancements
+Advanced ML models (Random Forest, XGBoost)
+Model performance evaluation (R², RMSE)
+Interactive visualizations using Plotly
+Deployment with custom domain
+👩‍💻 Author
 
-## 🚀 Future Improvements
-
-* Build interactive dashboard using Streamlit
-* Add sales forecasting
-* Improve visualization
-
----
-
-## 👤 Author
-
-**Shwetha Francis**
+Shwetha Francis
 AI & Data Science Graduate
