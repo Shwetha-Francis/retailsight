@@ -1,11 +1,12 @@
 🛍️ RetailSight: ML-Powered Retail Analytics Dashboard
+
 📌 Overview
 
 RetailSight is an interactive data analytics and machine learning dashboard built using Streamlit to analyze retail sales data and generate actionable business insights. The application enables real-time exploration of sales performance and predicts future sales trends.
 
 🚀 Live Demo
 
-🔗 http://localhost:8502
+🔗 [http://localhost:8502](https://retailsight-kw37dom9nvojs5rxahty8j.streamlit.app/)
 
 🎯 Objectives
 
