@@ -6,7 +6,7 @@ RetailSight is an interactive data analytics and machine learning dashboard buil
 
 🚀 Live Demo
 
-🔗 [http://localhost:8502](https://retailsight-kw37dom9nvojs5rxahty8j.streamlit.app/)
+🔗 https://retailsight-kw37dom9nvojs5rxahty8j.streamlit.app/
 
 🎯 Objectives
 
